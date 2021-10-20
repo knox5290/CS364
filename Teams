@@ -1,0 +1,47 @@
+CREATE Table Team ( 
+    "TeamId" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "Championships" INTEGER,
+    "City" Text,
+    "Mascot" Text,
+    "State" Text,
+    "Record" Integer,
+    "Stadium" Text,
+    "Capacity" INTEGER,
+    "Revenue" INTEGER,
+    "NetWorth" INTEGER
+);
+
+INSERT INTO Team (Championships,City,Mascot,State,Record,Stadium,Capacity,Income,NetWorth)
+VALUES
+    (6,"Pittsburgh","Steelers","Pennsylvania",12,"Heinz Field",68400,
+    (6,"New England","Patriots","Massachusetts",7,"Gillette Stadium",66829,
+    (5,"San Francisco","49ers","California",6,"Levi's Stadium",68500,
+    (5,"Dallas","Cowboys","Texas",6,"AT&T Stadium",80000,
+    (4,"Green Bay","Packers","Wisconsin",13,"Lanbeau Field",81441,
+    (4,"New York","Giants","New York",6,"MetLife Stadium",82500,
+    (3,"Las Vegas","Raiders","Nevada",8,"Allegiant Stadium",65000,
+    (3,"Washington","Football Team","D.C.",7,"FedExField",82000,
+    (3,"Denver","Broncos","Colorado",5,"Empower Field at Mile High",76125,
+    (2,"Kansas City","Chiefs","Missouri",14,"Arrowhead Stadium",76416,
+    (2,"Baltimore","Ravens","Maryland",11,"M&T Bank Stadium",71,008,
+    (2,"Tampa Bay","Buccaneers","Florida",11,"Raymond James Stadium",65890,
+    (2,"Indianapolis","Colts","Indiana",11,"Lucas Oil Stadium",67000,
+    (2,"Miami","Dolphins","Florida",10,"Hard Rock Stadium",65326,
+    (1,"New Orleans","Saints","Louisianna",12,"Mercedes-Benz Superdome",73208,
+    (1,"New York","Jets","New York",2,"MetLife Stadium",82500,
+    (1,"Chicago","Bears","Illinois",8,"Soldier Field",61,500,
+    (1,"Philadelphia","Eagles","Pennsylvania",4,"Lincoln Financial Field",69596,
+    (1,"Los Angeles","Rams","California",10,"SoFi Stadium",70240
+    (1,"Seattle","Seahawks","Washington",12,"CenturyLink Field",69000,
+    (NULL,"Buffalo","Bills","New York",13,"Bills Stadium",71608,
+    (NULL,"Minnesota","Vikings","Minnesota",7,"U.S. Bank Stadium",66655,
+    (NULL,"Atlanta","Falcons","Georgia",4,"Mercedes-Benz Stadium",71000,
+    (NULL,"Carolina","Panthers","North Carolina",5,"Bank of America Stadium",75523,
+    (NULL,"Cincinnati","Bengals","Ohio",4,"Paul Brown Stadium",65515,
+    (NULL,"Arizona","Cardinals","Arizona",8,"State Farm Stadium",63400,
+    (NULL,"Tennessee","Titans","Tennessee",11,"Nissan Stadium",69143,
+    (NULL,"Los Angeles","Chargers","California",7,"SoFi Stadium",70240
+    (NULL,"Cleveland","Browns","Ohio",11,"First Energy Stadium",67895,
+    (NULL,"Jacksonville","Jaguars","Florida",1,"TIAA Bank Field",69132,
+    (NULL,"Detriot","Lions","Michigan",5,"Ford Field",65000,
+    (NULL,"Houston","Texans","Texas",4,"NRG Stadium",72220,
